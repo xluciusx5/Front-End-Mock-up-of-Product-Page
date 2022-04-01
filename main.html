@@ -1,0 +1,1331 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+               <title> FE Design Challenge</title>
+    <meta charset="utf-8">
+    <link href="..//FEchallenge/main.css" rel="stylesheet" type="text/css">
+
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700,900" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700" rel="stylesheet">
+    
+
+<!--Header Style-->
+<style>
+ul{
+  list-style-type: none;
+  margin-top: 0px;
+  margin-bottom: 100px;
+  margin-right: 150px;
+  margin-left: 80px;
+  width: 90%;
+  height: 100%;
+  padding: 0.5% 0.5%;
+  overflow: hidden;
+  background-color: #333;
+  height: fit-content;
+  align-self: center;
+ }
+    
+li{
+  float: left;
+}
+    
+li a{
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+}
+    
+li a:hover:not(.active){
+      background-color: #111;
+}
+ </style>
+ 
+</head>
+
+
+
+
+    <ul> 
+        <!-- The following line acts more like a place holder for the logo, the actual code would look something like
+
+        <img class="logo" src="../assets/etc" alt="Chicks Gold" >
+        -->
+        <li><a href="#currencyLink">LOGO HERE</a></li>
+        <li><a href="#currencyLink">Currency</a></li>
+        <li><a href="#itemsLink">Items</a></li>
+        <li><a href="#accountLink">Account</a></li>
+        <li><a href="#servicesLink">Services</a></li>
+        <li><a href="#swapLink">Swap</a></li>
+        <li><a href="#sellLink">Sell</a></li>
+        <li style="float:right"><a href="#signInLink">SIGN IN</a></li>
+        <li style="float:right"><a href="#cartLink">Cart</a></li>
+        <li style="float:right"><a href="#currencyLink">USD</a></li>  
+      </ul>
+
+
+    
+      
+
+
+    <main>
+        <div class="grid-row">
+            <div class="product">
+              <div class="product--card">
+                <a class="product--image" href="#" title="View">
+                  <img class="img-responsive" src="https://placehold.it/257x210">
+                  <span class="tags"></span>
+                </a>
+                <a class="product--title" href="#" title="View">Integer tortor enim, gravida vel tempus iaculis</a>
+                <div class="product--brand">
+                  <a href="#" title="View">by Dolor sit amet</a>
+                </div>
+                <a class="product--price" href="#" title="View">
+                  <span class="product--price-inner">
+                    <div class="price--rrp">Don't pay $27.21</div>
+                    <div class="price--sell-price">$13.99</div>
+                  </span>
+                </a>
+              </div>
+            </div><div class="product">
+              <div class="product--card">
+                <a class="product--image" href="#" title="View">
+                  <img class="img-responsive" src="https://placehold.it/257x210">
+                  <span class="tags"><span class="availability sold-out">Sold out</span></span>
+                </a>
+                <a class="product--title" href="#" title="View">Integer tortor enim, gravida vel tempus iaculis</a>
+                <div class="product--brand">
+                  <a href="#" title="View">by Dolor sit amet</a>
+                </div>
+              </div>
+            </div>
+            <div class="product">
+              <div class="product--card">
+                <a class="product--image" href="#" title="View">
+                  <img class="img-responsive" src="https://placehold.it/257x210">
+                  <span class="tags">
+              </span>
+                </a>
+                <a class="product--title" href="#" title="View">Nullam non ipsum tincidunt, congue mauris a</a>
+                <div class="product--brand">
+                  <a href="#" title="View">by Enim, gravida vel tempus iaculis</a>
+                </div>
+                <a class="product--price" href="#" title="View">
+                  <span class="product--price-inner">
+                          <div class="price--sell-price">$9.98</div>
+                         </span>
+                </a>
+              </div>
+            </div>
+            <div class="product">
+              <div class="product--card">
+          
+                <a class="product--image" href="#" title="View">
+          
+          
+                  <img class="img-responsive" src="https://placehold.it/257x210">
+          
+          
+                  <span class="tags">
+              
+              
+              </span>
+                </a>
+          
+                <a class="product--title" href="#" title="View">Nam in tincidunt</a>
+          
+                <div class="product--brand">
+          
+                  <a href="#" title="View">by Nam in tincidunt</a>
+                </div>
+                <a class="product--price" href="#" title="View">
+                  <span class="product--price-inner">
+                         
+                  
+                          <div class="price--sell-price">$9.98</div>
+              
+                         </span>
+                </a>
+              </div>
+            </div>
+          
+          
+            <div class="product">
+              <div class="product--card">
+          
+                <a class="product--image" href="#" title="View">
+          
+          
+                  <img class="img-responsive" src="https://placehold.it/257x210">
+          
+          
+                  <span class="tags">
+              
+              
+              </span>
+                </a>
+          
+                <a class="product--title" href="#" title="View">Nullam non ipsum tincidunt, congue mauris a</a>
+          
+                <div class="product--brand">
+          
+                  <a href="#" title="View">by Nam in tincidunt</a>
+                </div>
+                <a class="product--price" href="#" title="View">
+                  <span class="product--price-inner">
+                         
+                          <div class="price--rrp">Don't pay $29.95</div>
+              
+                          <div class="price--sell-price">$18.49</div>
+              
+                         </span>
+                </a>
+              </div>
+            </div>
+          
+          
+            <div class="product">
+              <div class="product--card">
+          
+                <a class="product--image" href="#" title="View">
+          
+          
+                  <img class="img-responsive" src="https://placehold.it/257x210">
+          
+          
+                  <span class="tags">
+              
+              
+                      <span class="availability almost-gone">Almost Gone</span>
+                  </span>
+                </a>
+          
+                <a class="product--title" href="#" title="View">Pellentesque dictum</a>
+          
+                <div class="product--brand">
+          
+                  <a href="#" title="View">by Dictum</a>
+                </div>
+                <a class="product--price" href="#" title="View">
+                  <span class="product--price-inner">
+                         
+                  
+                          <div class="price--sell-price">$79.99</div>
+              
+                         </span>
+                </a>
+              </div>
+            </div>
+          
+          
+            <div class="product">
+              <div class="product--card">
+          
+                <a class="product--image" href="#" title="View">
+          
+          
+                  <img class="img-responsive" src="https://placehold.it/257x210">
+          
+          
+                  <span class="tags">
+              
+              
+              </span>
+                </a>
+          
+                <a class="product--title" href="#" title="View">Nullam non ipsum tincidunt, congue mauris a</a>
+          
+                <div class="product--brand">
+          
+                  <a href="#" title="View">by Nam in tincidunt</a>
+                </div>
+                <a class="product--price" href="#" title="View">
+                  <span class="product--price-inner">
+                         
+                  
+                          <div class="price--sell-price">$29.99</div>
+              
+                         </span>
+                </a>
+              </div>
+            </div>
+          
+          
+            <div class="product">
+              <div class="product--card">
+          
+                <a class="product--image" href="#" title="View">
+          
+          
+                  <img class="img-responsive" src="https://placehold.it/257x210">
+          
+          
+                  <span class="tags">
+              
+              
+              </span>
+                </a>
+          
+                <a class="product--title" href="#" title="View">Pellentesque dictum</a>
+          
+                <div class="product--brand">
+          
+                  <a href="#" title="View">by Dictum</a>
+                </div>
+                <a class="product--price" href="#" title="View">
+                  <span class="product--price-inner">
+                         
+                  
+                          <div class="price--sell-price">$7.94</div>
+              
+                         </span>
+                </a>
+              </div>
+            </div>
+          
+          
+            <div class="product">
+              <div class="product--card">
+          
+                <a class="product--image" href="#" title="View">
+          
+          
+                  <img class="img-responsive" src="https://placehold.it/257x210">
+          
+          
+                  <span class="tags">
+              
+              
+              </span>
+                </a>
+          
+                <a class="product--title" href="#" title="View">Integer tortor enim, gravida vel tempus iaculis</a>
+          
+                <div class="product--brand">
+          
+                  <a href="#" title="View">by Enim, gravida vel tempus iaculis</a>
+                </div>
+                <a class="product--price" href="#" title="View">
+                  <span class="product--price-inner">
+                         
+                  
+                          <div class="price--sell-price">$39.99</div>
+              
+                         </span>
+                </a>
+              </div>
+            </div>
+          
+          
+            <div class="product">
+              <div class="product--card">
+          
+                <a class="product--image" href="#" title="View">
+          
+          
+                  <img class="img-responsive" src="https://placehold.it/257x210">
+          
+          
+                  <span class="tags">
+              
+              
+              </span>
+                </a>
+          
+                <a class="product--title" href="#" title="View">Nam in tincidunt</a>
+          
+                <div class="product--brand">
+          
+                  <a href="#" title="View">by Dolor sit amet</a>
+                </div>
+                <a class="product--price" href="#" title="View">
+                  <span class="product--price-inner">
+                         
+                          <div class="price--rrp">Don't pay $24.95</div>
+              
+                          <div class="price--sell-price">$19.95</div>
+              
+                         </span>
+                </a>
+              </div>
+            </div>
+          
+          
+            <div class="product">
+              <div class="product--card">
+          
+                <a class="product--image" href="#" title="View">
+          
+          
+                  <img class="img-responsive" src="https://placehold.it/257x210">
+          
+          
+                  <span class="tags">
+              
+              
+              </span>
+                </a>
+          
+                <a class="product--title" href="#" title="View">Pellentesque dictum</a>
+          
+                <div class="product--brand">
+          
+                  <a href="#" title="View">by Enim, gravida vel tempus iaculis</a>
+                </div>
+                <a class="product--price" href="#" title="View">
+                  <span class="product--price-inner">
+                         
+                  
+                          <div class="price--sell-price">$39.99</div>
+              
+                         </span>
+                </a>
+              </div>
+            </div>
+          
+          
+            <div class="product">
+              <div class="product--card">
+          
+                <a class="product--image" href="#" title="View">
+          
+          
+                  <img class="img-responsive" src="https://placehold.it/257x210">
+          
+          
+                  <span class="tags">
+              
+              
+              </span>
+                </a>
+          
+                <a class="product--title" href="#" title="View">Integer tortor enim, gravida vel tempus iaculis</a>
+          
+                <div class="product--brand">
+          
+                  <a href="#" title="View">by Enim, gravida vel tempus iaculis</a>
+                </div>
+                <a class="product--price" href="#" title="View">
+                  <span class="product--price-inner">
+                         
+                  
+                          <div class="price--sell-price">$79.99</div>
+              
+                         </span>
+                </a>
+              </div>
+            </div>
+          
+          
+            <div class="product">
+              <div class="product--card">
+          
+                <a class="product--image" href="#" title="View">
+          
+          
+                  <img class="img-responsive" src="https://placehold.it/257x210">
+          
+          
+                  <span class="tags">
+              
+              
+                      <span class="availability almost-gone">Almost Gone</span>
+                  </span>
+                </a>
+          
+                <a class="product--title" href="#" title="View">Pellentesque dictum</a>
+          
+                <div class="product--brand">
+          
+                  <a href="#" title="View">by Non ipsum tincidunt</a>
+                </div>
+                <a class="product--price" href="#" title="View">
+                  <span class="product--price-inner">
+                         
+                          <div class="price--rrp">Don't pay $143.00</div>
+              
+                          <div class="price--sell-price">$79.99</div>
+              
+                         </span>
+                </a>
+              </div>
+            </div>
+          
+          
+            <div class="product">
+              <div class="product--card">
+          
+                <a class="product--image" href="#" title="View">
+          
+          
+                  <img class="img-responsive" src="https://placehold.it/257x210">
+          
+          
+                  <span class="tags">
+              
+              
+              </span>
+                </a>
+          
+                <a class="product--title" href="#" title="View">Nullam non ipsum tincidunt, congue mauris a</a>
+          
+                <div class="product--brand">
+          
+                  <a href="#" title="View">by Dolor sit amet</a>
+                </div>
+                <a class="product--price" href="#" title="View">
+                  <span class="product--price-inner">
+                         
+                          <div class="price--rrp">Don't pay $44.85</div>
+              
+                          <div class="price--sell-price">$16.95</div>
+              
+                         </span>
+                </a>
+              </div>
+            </div>
+          
+          
+            <div class="product">
+              <div class="product--card">
+          
+                <a class="product--image" href="#" title="View">
+          
+          
+                  <img class="img-responsive" src="https://placehold.it/257x210">
+          
+          
+                  <span class="tags">
+              
+              
+                      <span class="availability discount">10% off</span>
+                  </span>
+                </a>
+          
+                <a class="product--title" href="#" title="View">Pellentesque dictum</a>
+          
+                <div class="product--brand">
+          
+                  <a href="#" title="View">by Nam in tincidunt</a>
+                </div>
+                <a class="product--price" href="#" title="View">
+                  <span class="product--price-inner">
+                         
+                  
+                          <div class="price--sell-price was-price">Was $4.98</div>
+                  <div class="price--discount-price">$4.48</div>
+              
+                         </span>
+                </a>
+              </div>
+            </div>
+          
+          
+            <div class="product">
+              <div class="product--card">
+          
+                <a class="product--image" href="#" title="View">
+          
+          
+                  <img class="img-responsive" src="https://placehold.it/257x210">
+          
+          
+                  <span class="tags">
+              
+              
+              </span>
+                </a>
+          
+                <a class="product--title" href="#" title="View">Nullam non ipsum tincidunt, congue mauris a</a>
+          
+                <div class="product--brand">
+          
+                  <a href="#" title="View">by Nam in tincidunt</a>
+                </div>
+                <a class="product--price" href="#" title="View">
+                  <span class="product--price-inner">
+                         
+                  
+                          <div class="price--sell-price">$14.99</div>
+              
+                         </span>
+                </a>
+              </div>
+            </div>
+          
+          
+            <div class="product">
+              <div class="product--card">
+          
+                <a class="product--image" href="#" title="View">
+          
+          
+                  <img class="img-responsive" src="https://placehold.it/257x210">
+          
+          
+                  <span class="tags">
+              
+              
+              </span>
+                </a>
+          
+                <a class="product--title" href="#" title="View">Nullam non ipsum tincidunt, congue mauris a</a>
+          
+                <div class="product--brand">
+          
+                  <a href="#" title="View">by Dictum</a>
+                </div>
+                <a class="product--price" href="#" title="View">
+                  <span class="product--price-inner">
+                         
+                  
+                          <div class="price--sell-price">$6.74</div>
+              
+                         </span>
+                </a>
+              </div>
+            </div>
+          
+          
+            <div class="product">
+              <div class="product--card">
+          
+                <a class="product--image" href="#" title="View">
+          
+          
+                  <img class="img-responsive" src="https://placehold.it/257x210">
+          
+          
+                  <span class="tags">
+              
+              
+              </span>
+                </a>
+          
+                <a class="product--title" href="#" title="View">Integer tortor enim, gravida vel tempus iaculis</a>
+          
+                <div class="product--brand">
+          
+                  <a href="#" title="View">by Dictum</a>
+                </div>
+                <a class="product--price" href="#" title="View">
+                  <span class="product--price-inner">
+                         
+                  
+                          <div class="price--sell-price">$79.99</div>
+              
+                         </span>
+                </a>
+              </div>
+            </div>
+          
+          
+            <div class="product">
+              <div class="product--card">
+          
+                <a class="product--image" href="#" title="View">
+          
+          
+                  <img class="img-responsive" src="https://placehold.it/257x210">
+          
+          
+                  <span class="tags">
+              
+              
+              </span>
+                </a>
+          
+                <a class="product--title" href="#" title="View">Lorem ipsum dolor sit amet</a>
+          
+                <div class="product--brand">
+          
+                  <a href="#" title="View">by Dictum</a>
+                </div>
+                <a class="product--price" href="#" title="View">
+                  <span class="product--price-inner">
+                         
+                          <div class="price--rrp">Don't pay $66.00</div>
+              
+                          <div class="price--sell-price">$39.99</div>
+              
+                         </span>
+                </a>
+              </div>
+            </div>
+          
+          
+            <div class="product">
+              <div class="product--card">
+          
+                <a class="product--image" href="#" title="View">
+          
+          
+                  <img class="img-responsive" src="https://placehold.it/257x210">
+          
+          
+                  <span class="tags">
+              
+              
+              </span>
+                </a>
+          
+                <a class="product--title" href="#" title="View">Nam in tincidunt</a>
+          
+                <div class="product--brand">
+          
+                  <a href="#" title="View">by Dolor sit amet</a>
+                </div>
+                <a class="product--price" href="#" title="View">
+                  <span class="product--price-inner">
+                         
+                  
+                          <div class="price--sell-price">$59.99</div>
+              
+                         </span>
+                </a>
+              </div>
+            </div>
+          
+          
+            <div class="product">
+              <div class="product--card">
+          
+                <a class="product--image" href="#" title="View">
+          
+          
+                  <img class="img-responsive" src="https://placehold.it/257x210">
+          
+          
+                  <span class="tags">
+              
+              
+              </span>
+                </a>
+          
+                <a class="product--title" href="#" title="View">Nam in tincidunt</a>
+          
+                <div class="product--brand">
+          
+                  <a href="#" title="View">by Nam in tincidunt</a>
+                </div>
+                <a class="product--price" href="#" title="View">
+                  <span class="product--price-inner">
+                         
+                  
+                          <div class="price--sell-price">$14.99</div>
+              
+                         </span>
+                </a>
+              </div>
+            </div>
+          
+          
+            <div class="product">
+              <div class="product--card">
+          
+                <a class="product--image" href="#" title="View">
+          
+          
+                  <img class="img-responsive" src="https://placehold.it/257x210">
+          
+          
+                  <span class="tags">
+              
+              
+              </span>
+                </a>
+          
+                <a class="product--title" href="#" title="View">Lorem ipsum dolor sit amet</a>
+          
+                <div class="product--brand">
+          
+                  <a href="#" title="View">by Dolor sit amet</a>
+                </div>
+                <a class="product--price" href="#" title="View">
+                  <span class="product--price-inner">
+                         
+                  
+                          <div class="price--sell-price">$5.98</div>
+              
+                         </span>
+                </a>
+              </div>
+            </div>
+          
+          
+            <div class="product">
+              <div class="product--card">
+          
+                <a class="product--image" href="#" title="View">
+          
+          
+                  <img class="img-responsive" src="https://placehold.it/257x210">
+          
+          
+                  <span class="tags">
+              
+              
+              </span>
+                </a>
+          
+                <a class="product--title" href="#" title="View">Pellentesque dictum</a>
+          
+                <div class="product--brand">
+          
+                  <a href="#" title="View">by Nam in tincidunt</a>
+                </div>
+                <a class="product--price" href="#" title="View">
+                  <span class="product--price-inner">
+                         
+                  
+                          <div class="price--sell-price">$79.99</div>
+              
+                         </span>
+                </a>
+              </div>
+            </div>
+          
+          
+            <div class="product">
+              <div class="product--card">
+          
+                <a class="product--image" href="#" title="View">
+          
+          
+                  <img class="img-responsive" src="https://placehold.it/257x210">
+          
+          
+                  <span class="tags">
+              
+              
+                      <span class="availability discount">10% off</span>
+                  </span>
+                </a>
+          
+                <a class="product--title" href="#" title="View">Nam in tincidunt</a>
+          
+                <div class="product--brand">
+          
+                  <a href="#" title="View">by Enim, gravida vel tempus iaculis</a>
+                </div>
+                <a class="product--price" href="#" title="View">
+                  <span class="product--price-inner">
+                         
+                  
+                          <div class="price--sell-price was-price">Was $11.98</div>
+                  <div class="price--discount-price">$10.78</div>
+              
+                         </span>
+                </a>
+              </div>
+            </div>
+          
+          
+            <div class="product">
+              <div class="product--card">
+          
+                <a class="product--image" href="#" title="View">
+          
+          
+                  <img class="img-responsive" src="https://placehold.it/257x210">
+          
+          
+                  <span class="tags">
+              
+              
+              </span>
+                </a>
+          
+                <a class="product--title" href="#" title="View">Pellentesque dictum</a>
+          
+                <div class="product--brand">
+          
+                  <a href="#" title="View">by Dictum</a>
+                </div>
+                <a class="product--price" href="#" title="View">
+                  <span class="product--price-inner">
+                         
+                  
+                          <div class="price--sell-price">$59.99</div>
+              
+                         </span>
+                </a>
+              </div>
+            </div>
+          
+          
+            <div class="product">
+              <div class="product--card">
+          
+                <a class="product--image" href="#" title="View">
+          
+          
+                  <img class="img-responsive" src="https://placehold.it/257x210">
+          
+          
+                  <span class="tags">
+              
+              
+              </span>
+                </a>
+          
+                <a class="product--title" href="#" title="View">Lorem ipsum dolor sit amet</a>
+          
+                <div class="product--brand">
+          
+                  <a href="#" title="View">by Nam in tincidunt</a>
+                </div>
+                <a class="product--price" href="#" title="View">
+                  <span class="product--price-inner">
+                         
+                  
+                          <div class="price--sell-price">$59.99</div>
+              
+                         </span>
+                </a>
+              </div>
+            </div>
+          
+          
+            <div class="product">
+              <div class="product--card">
+          
+                <a class="product--image" href="#" title="View">
+          
+          
+                  <img class="img-responsive" src="https://placehold.it/257x210">
+          
+          
+                  <span class="tags">
+              
+              
+                      <span class="availability discount">10% off</span>
+                  </span>
+                </a>
+          
+                <a class="product--title" href="#" title="View">Lorem ipsum dolor sit amet</a>
+          
+                <div class="product--brand">
+          
+                  <a href="#" title="View">by Dolor sit amet</a>
+                </div>
+                <a class="product--price" href="#" title="View">
+                  <span class="product--price-inner">
+                         
+                  
+                          <div class="price--sell-price was-price">Was $9.90</div>
+                  <div class="price--discount-price">$8.91</div>
+              
+                         </span>
+                </a>
+              </div>
+            </div>
+          
+          
+            <div class="product">
+              <div class="product--card">
+          
+                <a class="product--image" href="#" title="View">
+          
+          
+                  <img class="img-responsive" src="https://placehold.it/257x210">
+          
+          
+                  <span class="tags">
+              
+              
+              </span>
+                </a>
+          
+                <a class="product--title" href="#" title="View">Nullam non ipsum tincidunt, congue mauris a</a>
+          
+                <div class="product--brand">
+          
+                  <a href="#" title="View">by Dictum</a>
+                </div>
+                <a class="product--price" href="#" title="View">
+                  <span class="product--price-inner">
+                         
+                  
+                          <div class="price--sell-price">$12.99</div>
+              
+                         </span>
+                </a>
+              </div>
+            </div>
+          
+          
+            <div class="product">
+              <div class="product--card">
+          
+                <a class="product--image" href="#" title="View">
+          
+          
+                  <img class="img-responsive" src="https://placehold.it/257x210">
+          
+          
+                  <span class="tags">
+              
+              
+              </span>
+                </a>
+          
+                <a class="product--title" href="#" title="View">Nam in tincidunt</a>
+          
+                <div class="product--brand">
+          
+                  <a href="#" title="View">by Dolor sit amet</a>
+                </div>
+                <a class="product--price" href="#" title="View">
+                  <span class="product--price-inner">
+                         
+                  
+                          <div class="price--sell-price">$11.98</div>
+              
+                         </span>
+                </a>
+              </div>
+            </div>
+          
+          
+            <div class="product">
+              <div class="product--card">
+          
+                <a class="product--image" href="#" title="View">
+          
+          
+                  <img class="img-responsive" src="https://placehold.it/257x210">
+          
+          
+                  <span class="tags">
+              
+              
+              </span>
+                </a>
+          
+                <a class="product--title" href="#" title="View">Nullam non ipsum tincidunt, congue mauris a</a>
+          
+                <div class="product--brand">
+          
+                  <a href="#" title="View">by Nam in tincidunt</a>
+                </div>
+                <a class="product--price" href="#" title="View">
+                  <span class="product--price-inner">
+                         
+                          <div class="price--rrp">Don't pay $32.99</div>
+              
+                          <div class="price--sell-price">$18.48</div>
+              
+                         </span>
+                </a>
+              </div>
+            </div>
+          
+          
+            <div class="product">
+              <div class="product--card">
+          
+                <a class="product--image" href="#" title="View">
+          
+          
+                  <img class="img-responsive" src="https://placehold.it/257x210">
+          
+          
+                  <span class="tags">
+              
+              
+              </span>
+                </a>
+          
+                <a class="product--title" href="#" title="View">Nullam non ipsum tincidunt, congue mauris a</a>
+          
+                <div class="product--brand">
+          
+                  <a href="#" title="View">by Enim, gravida vel tempus iaculis</a>
+                </div>
+                <a class="product--price" href="#" title="View">
+                  <span class="product--price-inner">
+                         
+                  
+                          <div class="price--sell-price">$9.99</div>
+              
+                         </span>
+                </a>
+              </div>
+            </div>
+          
+          
+            <div class="product">
+              <div class="product--card">
+          
+                <a class="product--image" href="#" title="View">
+          
+          
+                  <img class="img-responsive" src="https://placehold.it/257x210">
+          
+          
+                  <span class="tags">
+              
+              
+                      <span class="availability discount">10% off</span>
+                  </span>
+                </a>
+          
+                <a class="product--title" href="#" title="View">Lorem ipsum dolor sit amet</a>
+          
+                <div class="product--brand">
+          
+                  <a href="#" title="View">by Dolor sit amet</a>
+                </div>
+                <a class="product--price" href="#" title="View">
+                  <span class="product--price-inner">
+                         
+                          <div class="price--rrp">Don't pay $25.99</div>
+              
+                          <div class="price--sell-price was-price">Was $9.96</div>
+                  <div class="price--discount-price">$8.96</div>
+              
+                         </span>
+                </a>
+              </div>
+            </div>
+          
+          
+            <div class="product">
+              <div class="product--card">
+          
+                <a class="product--image" href="#" title="View">
+          
+          
+                  <img class="img-responsive" src="https://placehold.it/257x210">
+          
+          
+                  <span class="tags">
+              
+              
+              </span>
+                </a>
+          
+                <a class="product--title" href="#" title="View">Pellentesque dictum</a>
+          
+                <div class="product--brand">
+          
+                  <a href="#" title="View">by Non ipsum tincidunt</a>
+                </div>
+                <a class="product--price" href="#" title="View">
+                  <span class="product--price-inner">
+                         
+                  
+                          <div class="price--sell-price">$19.99</div>
+              
+                         </span>
+                </a>
+              </div>
+            </div>
+          
+          
+            <div class="product">
+              <div class="product--card">
+          
+                <a class="product--image" href="#" title="View">
+          
+          
+                  <img class="img-responsive" src="https://placehold.it/257x210">
+          
+          
+                  <span class="tags">
+              
+              
+              </span>
+                </a>
+          
+                <a class="product--title" href="#" title="View">Nullam non ipsum tincidunt, congue mauris a</a>
+          
+                <div class="product--brand">
+          
+                  <a href="#" title="View">by Non ipsum tincidunt</a>
+                </div>
+                <a class="product--price" href="#" title="View">
+                  <span class="product--price-inner">
+                         
+                  
+                          <div class="price--sell-price">$11.98</div>
+              
+                         </span>
+                </a>
+              </div>
+            </div>
+          
+          
+            <div class="product">
+              <div class="product--card">
+          
+                <a class="product--image" href="#" title="View">
+          
+          
+                  <img class="img-responsive" src="https://placehold.it/257x210">
+          
+          
+                  <span class="tags">
+              
+              
+              </span>
+                </a>
+          
+                <a class="product--title" href="#" title="View">Integer tortor enim, gravida vel tempus iaculis</a>
+          
+                <div class="product--brand">
+          
+                  <a href="#" title="View">by Non ipsum tincidunt</a>
+                </div>
+                <a class="product--price" href="#" title="View">
+                  <span class="product--price-inner">
+                         
+                  
+                          <div class="price--sell-price">$6.50</div>
+              
+                         </span>
+                </a>
+              </div>
+            </div>
+          
+          
+            <div class="product">
+              <div class="product--card">
+          
+                <a class="product--image" href="#" title="View">
+          
+          
+                  <img class="img-responsive" src="https://placehold.it/257x210">
+          
+          
+                  <span class="tags">
+              
+              
+                      <span class="availability almost-gone">Almost Gone</span>
+                  </span>
+                </a>
+          
+                <a class="product--title" href="#" title="View">Lorem ipsum dolor sit amet</a>
+          
+                <div class="product--brand">
+          
+                  <a href="#" title="View">by Dolor sit amet</a>
+                </div>
+                <a class="product--price" href="#" title="View">
+                  <span class="product--price-inner">
+                         
+                  
+                          <div class="price--sell-price">$79.99</div>
+              
+                         </span>
+                </a>
+              </div>
+            </div>
+          
+          
+            <div class="product">
+              <div class="product--card">
+          
+                <a class="product--image" href="#" title="View">
+          
+          
+                  <img class="img-responsive" src="https://placehold.it/257x210">
+          
+          
+                  <span class="tags">
+              
+              
+              </span>
+                </a>
+          
+                <a class="product--title" href="#" title="View">Lorem ipsum dolor sit amet</a>
+          
+                <div class="product--brand">
+          
+                  <a href="#" title="View">by Dictum</a>
+                </div>
+                <a class="product--price" href="#" title="View">
+                  <span class="product--price-inner">
+                         
+                  
+                          <div class="price--sell-price">$59.99</div>
+              
+                         </span>
+                </a>
+              </div>
+            </div>
+          </div>
+</main>
+
+
+<!-- Footer -->
+<footer class="container-fluid bg-grey py-5">
+    <div class="container">
+       <div class="row">
+          <div class="col-md-6">
+             <div class="row">
+                <div class="col-md-6 ">
+                   <div class="logo-part">
+                      <img src="chicks logo" class="w-50 logo-footer" >
+                      <p>Lorem Ipsum</p>
+                      <p>Lorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem Ipsum</p>
+                   </div>
+                </div>
+                <div class="col-md-6 px-4">
+                   <h6> About Company</h6>
+                   <p>Lorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem Ipsum</p>
+                   <a href="#" class="btn-footer"> Lorem IpsumLorem Ipsum </a><br>
+                   <a href="#" class="btn-footer"> Lorem IpsumLorem Ipsum</a>
+                </div>
+             </div>
+          </div>
+          <div class="col-md-6">
+             <div class="row">
+                <div class="col-md-6 px-4">
+                   <h6> HLorem IpsumLorem Ipsum</h6>
+                   <div class="row ">
+                      <div class="col-md-6">
+                         <ul>
+                            <li> <a href="#"> Lorem IpsumLorem Ipsum</a> </li>
+                            <li> <a href="#"> Lorem IpsumLorem IpsumLorem Ipsum</a> </li>
+                            
+                         </ul>
+                      </div>
+                      
+                   </div>
+                </div>
+                <div class="col-md-6 ">
+                   <h6> Lorem IpsumLorem Ipsum</h6>
+                   <div class="social">
+                      <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                      <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                   </div>
+                   <form class="form-footer my-3">
+                      <input type="text"  placeholder="search here...." name="search">
+                      <input type="button" value="Go" >
+                   </form>
+                   <p>TLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem Ipsum</p>
+                </div>
+             </div>
+          </div>
+       </div>
+    </div>
+    </footer>
+
+
+</html>
