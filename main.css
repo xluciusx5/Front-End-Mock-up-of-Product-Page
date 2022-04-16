@@ -12,6 +12,7 @@ main {
     align-self: center;
 }
 
+
 .grid-container {
     display: grid;
     grid-column-gap: 30px;
@@ -125,6 +126,10 @@ html, body {
   
   .price--sell-price {
     color: #28a528;
+  }
+  .price--add-to-card{
+    color: blue;
+    float: right;
   }
   
   .product .product--price .was-price, 
